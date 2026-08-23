@@ -1,0 +1,1 @@
+import{c as o,o as r,p as s}from"#entry";const n=["innerHTML"],l={__name:"Html",props:{content:{type:String},useProse:{type:Boolean}},setup(e){return(t,a)=>(r(),o("div",{innerHTML:e.content,class:s(["content-renderer",{"prose prose-sm sm:prose lg:prose-lg xl:prose-xl mx-auto dark:prose-invert":e.useProse}])},null,10,n))}};export{l as _};
