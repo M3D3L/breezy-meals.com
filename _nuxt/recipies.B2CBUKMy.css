@@ -1,0 +1,1 @@
+@media print{body>*{visibility:hidden}[data-reka-dialog-overlay]{display:none!important}#print-recipe,#print-recipe *{visibility:visible}#print-recipe{inset:0;position:absolute;width:100%}}
