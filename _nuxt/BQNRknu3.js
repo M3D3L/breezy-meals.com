@@ -1,1 +1,0 @@
-import{c as r}from"./BmKAL400.js";import{e as o,c as t,o as n,q as c,u as l,D as p}from"#entry";const f=o({__name:"TableHeader",props:{class:{}},setup(e){const s=e;return(a,m)=>(n(),t("thead",{class:c(l(r)("[&_tr]:border-b",s.class))},[p(a.$slots,"default")],2))}});export{f as _};
