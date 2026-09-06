@@ -1,0 +1,1 @@
+import{c as a}from"./BmKAL400.js";import{e as o,c as t,o as c,D as l,m as n,u as m}from"#entry";const i=o({__name:"Card",props:{class:{},styles:{default:"card-styles bg-card-90 hover:bg-card-95 hover:border-primary-40"}},setup(e){const s=e;return(r,p)=>(c(),t("div",{class:n(m(a)(s.styles,s.class))},[l(r.$slots,"default")],2))}});export{i as _};
