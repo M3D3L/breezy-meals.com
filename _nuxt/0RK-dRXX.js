@@ -1,1 +1,0 @@
-import{c as o}from"./BmKAL400.js";import{e as n,c as t,o as r,m as c,u as l,D as m}from"#entry";const d=n({__name:"CardTitle",props:{class:{}},setup(s){const e=s;return(a,i)=>(r(),t("h3",{class:c(l(o)("font-semibold leading-none tracking-tight",e.class))},[m(a.$slots,"default")],2))}});export{d as _};

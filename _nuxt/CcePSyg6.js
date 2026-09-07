@@ -1,1 +1,0 @@
-import{e as s,f as a,c as r,a as o,n as c,o as i}from"#entry";const m={class:"grid min-h-screen place-items-center p-6 text-center"},l=s({__name:"index",async setup(p){let e,t;return[e,t]=a(()=>c("/menu",{replace:!0})),await e,t(),(_,n)=>(i(),r("div",m,[...n[0]||(n[0]=[o("p",{class:"text-sm text-muted-foreground"},"Abriendo menu...",-1)])]))}});export{l as default};
