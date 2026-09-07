@@ -1,0 +1,1 @@
+import{r as n,f as m,aH as r}from"#entry";function l(){const e=n(),t=m(()=>["#text","#comment"].includes(e.value?.$el.nodeName)?e.value?.$el.nextElementSibling:r(e));return{primitiveElement:e,currentElement:t}}export{l as u};

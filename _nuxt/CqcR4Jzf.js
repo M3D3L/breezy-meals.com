@@ -1,0 +1,1 @@
+import{d as r,c as o,o as n,m as t,l as c,a1 as l,W as p}from"#entry";const _=r({__name:"TableHeader",props:{class:{}},setup(e){const s=e;return(a,m)=>(n(),o("thead",{class:t(c(l)("[&_tr]:border-b",s.class))},[p(a.$slots,"default")],2))}});export{_};
