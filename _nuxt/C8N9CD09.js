@@ -1,0 +1,1 @@
+import{d as a,w as n,c as o,n as r,o as s}from"#entry";const l=a({__name:"catering-items",async setup(c){let e,t;return[e,t]=n(()=>r("/platillos-catering",{replace:!0})),await e,t(),(_,i)=>(s(),o("div"))}});export{l as default};
