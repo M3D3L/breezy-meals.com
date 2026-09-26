@@ -1,0 +1,1 @@
+import{d as n,c as t,o,m as r,l,aa as c,a3 as m}from"#entry";const d=n({__name:"AlertTitle",props:{class:{}},setup(e){const s=e;return(a,i)=>(o(),t("h5",{class:r(l(c)("mb-1 font-medium leading-none tracking-tight",s.class))},[m(a.$slots,"default")],2))}});export{d as _};
