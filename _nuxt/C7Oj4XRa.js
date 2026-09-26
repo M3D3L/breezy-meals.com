@@ -1,0 +1,1 @@
+import{d as s,U as i,bp as p,i as l,o as n,q as u,Y as d,Z as c,l as e,a0 as _}from"#entry";var f=s({__name:"DialogDescription",props:{asChild:{type:Boolean,required:!1},as:{type:null,required:!1,default:"p"}},setup(t){const o=t;i();const a=p();return(r,D)=>(n(),l(e(_),c(o,{id:e(a).descriptionId}),{default:u(()=>[d(r.$slots,"default")]),_:3},16,["id"]))}}),m=f;export{m as D};
