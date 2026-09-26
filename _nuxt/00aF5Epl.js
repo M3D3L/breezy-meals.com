@@ -1,0 +1,11 @@
+import{b as p}from"#entry";import{u as I}from"./ClVL_7T7.js";/**
+ * @license lucide-vue-next v0.488.0 - ISC
+ *
+ * This source code is licensed under the ISC license.
+ * See the LICENSE file in the root directory of this source tree.
+ */const x=p("image-off",[["line",{x1:"2",x2:"22",y1:"2",y2:"22",key:"a6p6uj"}],["path",{d:"M10.41 10.41a2 2 0 1 1-2.83-2.83",key:"1bzlo9"}],["line",{x1:"13.5",x2:"6",y1:"13.5",y2:"21",key:"1q0aeu"}],["line",{x1:"18",x2:"21",y1:"12",y2:"15",key:"5mozeu"}],["path",{d:"M3.59 3.59A1.99 1.99 0 0 0 3 5v14a2 2 0 0 0 2 2h14c.55 0 1.052-.22 1.41-.59",key:"mmje98"}],["path",{d:"M21 15V5a2 2 0 0 0-2-2H9",key:"43el77"}]]);/**
+ * @license lucide-vue-next v0.488.0 - ISC
+ *
+ * This source code is licensed under the ISC license.
+ * See the LICENSE file in the root directory of this source tree.
+ */const L=p("upload",[["path",{d:"M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4",key:"ih7n3h"}],["polyline",{points:"17 8 12 3 7 8",key:"t8dd8p"}],["line",{x1:"12",x2:"12",y1:"3",y2:"15",key:"widbto"}]]),c="Images",r="field",h=5*1024*1024;function M(){const{createItem:u,getFileUrl:m,updateItem:l}=I();function i(e){if(!e.type.startsWith("image/"))throw new Error(`${e.name} no es una imagen valida`);if(e.size>h)throw new Error(`${e.name} supera el limite de 5 MB`)}function s(e){const t=m(e,e[r]);return/^https?:\/\//i.test(t)?t:new URL(t,window.location.origin).href}function d(e,t){const a={title:t.title?.trim(),source:t.source?.trim(),source_key:t.sourceKey?.trim()};Object.entries(a).forEach(([n,o])=>{o&&e.append(n,o)})}function y(e,t){if(!t?.trim())return e;const a=t.normalize("NFD").replace(/[\u0300-\u036f]/g,"").toLowerCase().replace(/[^a-z0-9]+/g,"-").replace(/^-|-$/g,"").slice(0,100),n=e.name.includes(".")?e.name.split(".").pop()?.toLowerCase():e.type.split("/").pop()?.toLowerCase();return!a||!n?e:new File([e],`${a}.${n}`,{type:e.type,lastModified:e.lastModified})}async function f(e,t={}){i(e);const a=t.title?.trim()||e.name.replace(/\.[^.]+$/,""),n=y(e,a),o=new FormData;o.append(r,n),d(o,{...t,title:a});const g=await u(c,o);return s(g)}async function w(e,t){i(t);const a=new FormData;a.append(r,t,e[r]);const n=await l(c,e.id,a);return s(n)}return{collection:c,fileField:r,imageUrl:s,replaceImage:w,uploadImage:f,validateImage:i}}export{x as I,L as U,M as u};
