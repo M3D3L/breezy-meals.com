@@ -1,0 +1,1 @@
+import{On as e,Zn as t,b as n,k as r,mt as i,xt as a}from"./DVRkMeDb.js";import{n as o}from"./CL2kRJAZ.js";var s=r({__name:`AlertTitle`,props:{class:{type:[Boolean,null,String,Object,Array]}},setup(r){let s=r;return(r,c)=>(i(),n(`h5`,{class:t(e(o)(`mb-1 font-medium leading-none tracking-tight`,s.class))},[a(r.$slots,`default`)],2))}});export{s as t};

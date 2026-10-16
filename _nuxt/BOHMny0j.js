@@ -1,0 +1,1 @@
+import{On as e,Zn as t,b as n,k as r,mt as i,xt as a}from"./DVRkMeDb.js";import{n as o}from"./CL2kRJAZ.js";var s=r({__name:`TableHeader`,props:{class:{type:[Boolean,null,String,Object,Array]}},setup(r){let s=r;return(r,c)=>(i(),n(`thead`,{class:t(e(o)(`[&_tr]:border-b`,s.class))},[a(r.$slots,`default`)],2))}});export{s as t};

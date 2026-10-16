@@ -1,1 +1,0 @@
-import{On as e,Zn as t,b as n,k as r,mt as i,xt as a}from"./DVRkMeDb.js";import{n as o}from"./DrCM4dvi.js";var s=r({__name:`CardTitle`,props:{class:{type:[Boolean,null,String,Object,Array]}},setup(r){let s=r;return(r,c)=>(i(),n(`h3`,{class:t(e(o)(`font-semibold leading-none tracking-tight`,s.class))},[a(r.$slots,`default`)],2))}});export{s as t};

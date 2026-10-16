@@ -1,0 +1,1 @@
+import{On as e,Zn as t,b as n,k as r,mt as i}from"./DVRkMeDb.js";import{n as a}from"./CL2kRJAZ.js";var o=r({__name:`Skeleton`,props:{class:{type:[Boolean,null,String,Object,Array]}},setup(r){let o=r;return(r,s)=>(i(),n(`div`,{class:t(e(a)(`animate-pulse rounded-md bg-primary`,o.class))},null,2))}});export{o as t};

@@ -1,1 +1,0 @@
-import{k as e,mt as t,v as n}from"./DVRkMeDb.js";import{t as r}from"./C3sM4BqP.js";import{t as i}from"./DZA0YOTB.js";var a=e({__name:`productos`,setup(e){return r({layout:`staff`,alias:`/store-items`}),(e,r)=>(t(),n(i,{dishes:`store`}))}});export{a as default};
