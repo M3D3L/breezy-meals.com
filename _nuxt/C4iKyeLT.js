@@ -1,0 +1,1 @@
+import{b as e,mt as t,xt as n}from"./DVRkMeDb.js";import{t as r}from"#entry";var i={};function a(r,i){return t(),e(`div`,null,[n(r.$slots,`default`)])}var o=r(i,[[`render`,a]]);export{o as default};

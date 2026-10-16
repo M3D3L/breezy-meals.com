@@ -1,0 +1,1 @@
+import{Kt as e,b as t,k as n,mt as r}from"./DVRkMeDb.js";import{c as i}from"./CdiwfcOX.js";import{t as a}from"./C3sM4BqP.js";var o=n({__name:`catering-items`,async setup(n){let o,s;return a({layout:`staff`}),[o,s]=e(()=>i(`/platillos-catering`,{replace:!0})),await o,s(),(e,n)=>(r(),t(`div`))}});export{o as default};

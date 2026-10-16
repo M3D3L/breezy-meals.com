@@ -1,0 +1,1 @@
+import{$n as e,On as t,k as n,mt as r,qt as i,v as a,xt as o,z as s}from"./DVRkMeDb.js";import{t as c}from"./BmgacnHp.js";var l=n({__name:`DialogTrigger`,props:{asChild:{type:Boolean},as:{}},setup(n){let l=n;return(n,u)=>(r(),a(t(c),e(s(l)),{default:i(()=>[o(n.$slots,`default`)]),_:3},16))}});export{l as t};
