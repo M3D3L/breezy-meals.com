@@ -1,0 +1,1 @@
+var e=Symbol(`menuItemStorage`);function t(t){if(t&&typeof t==`object`)return t[e]}function n(t,n){return Object.defineProperty(t,e,{configurable:!0,enumerable:!1,value:{...n}}),t}function r(e,r){let i=t(e);return i?n(r,i):r}export{t as n,n as r,r as t};
