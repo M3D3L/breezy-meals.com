@@ -1,1 +1,0 @@
-import{k as e,mt as t,v as n}from"./DVRkMeDb.js";import{t as r}from"./D5PvOCgB.js";import{t as i}from"./C3sM4BqP.js";var a=e({__name:`tienda`,setup(e){return i({layout:`breezy`}),(e,i)=>(t(),n(r,{"fetched-collection":`menu`,"dishes-field":`store`,"use-daily-menu":!1,"show-member-code":!1}))}});export{a as default};
